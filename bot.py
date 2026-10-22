@@ -17,7 +17,7 @@ filters,
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(name)
 
-TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN ="8310795508:AAFp9zBp11ossHoA-rG3At2Q-bd_xcS_u0c" 
 
 if not TOKEN:
 raise RuntimeError("يرجى ضبط متغير BOT_TOKEN في إعدادات الاستضافة")
